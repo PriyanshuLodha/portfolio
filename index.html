@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>-- PortFolio Website</title>
+    <script src="https://kit.fontawesome.com/1935d064dd.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="media-query.css">
+</head>
+<body>
+    <div class="all">
+        <header>
+            <div class="container">
+                <nav id="nav-ul">
+                    <ul class="nav-ul">
+                        <li class="nav-li active">
+                            <i class="fas fa-user"></i>
+                            <a href="#about" class="link" data-filter="content-about">About</a> 
+                        </li>
+                        <li class="nav-li">
+                            <i class="fas fa-poll-h"></i>
+                            <a href="#resume" class="link" data-filter="content-resume">Resume</a> 
+                        </li>
+                        <li class="nav-li">
+                            <i class="fas fa-pencil-alt"></i>
+                            <a href="#portfolio" class="link" data-filter="content-portfolio">PortFolio</a> 
+                        </li>
+                        <li class="nav-li">
+                            <i class="fas fa-envelope"></i>
+                            <a href="#contact" class="link" data-filter="content-contact">Contact</a> 
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <!-- CONTENT SECTION -->
+        <section>
+            <div class="container main-container">
+                <!-- PROFILE SECTION -->
+                <div class="profile">
+                    <div class="profile-image">
+                        <img style="width: 50%; height: 50%; margin-left: 25%; margin-top: 10%; border-radius: 50%;" src="priyanshu_pic.png" alt="man">
+                    </div>
+                    <div class="profile-content">
+                        <h2>Priyanshu Lodha</h2>
+                        <p class="text-effect">Web Developer</p>
+                        <div class="profile-icons">
+                            <a href="https://github.com/PriyanshuLodha">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/priyanshu-lodha1601/">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fab fa-email"></i>
+                            </a>
+                        </div>
+                        <div class="profile-cta my-border">
+                            <div><a href="https://github.com/PriyanshuLodha">GitHub</a></div>
+                            <div><a href="mailto:priyanshulodha181@gmail.com">Contact Me</a></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- MAIN CONTENT SECTION -->
+                <div class="content-all">
+                    <!-- CONTENT ABOUT -->
+                    <div class="content content-about" id="about">
+                        <div class="content-header">
+                            <h2><span>About</span> Me</h2>
+                        </div>
+                        <div class="content-details">
+                            <img src="/priyanshu_pic.png" alt="profile">
+                            <p><span class="text">Hello! I'm</span><span class="name"> Priyanshu Lodha</span></p>
+                            <p>
+                                Bangalore, India-based Software Engineer with a talent for WordPress and a knack for big goals. Skilled in Java, C++, GoLang, JavaScript, React, Spring Boot, AWS, Kubernetes, MySQL, PostgreSQL, and MongoDB.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- CONTENT RESUME -->
+                    <div class="content content-resume" id="resume">
+                        <div class="content-header">
+                            <h2><span>My</span> Resume</h2>
+                        </div>
+                        <div class="content-details">
+                            <div class="resume">
+                                <div class="my-resume education">
+                                    <div class="title">
+                                        <h3>Education</h3>
+                                    </div>
+                                    <div class="details">
+                                        <div class="specific-details">
+                                            <p class="year">2019-2023</p>
+                                            <br/><br/>
+                                            <div class="year-details">
+                                                <p class="year-title">
+                                                    BNM Institute Of Technology 
+                                                </p>
+                                                <p class="year-desc">
+                                                    B.E Information Science
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="my-resume experience">
+                                    <div class="title">
+                                        <h3>Experience</h3>
+                                    </div>
+                                    <div class="details">
+                                        <div class="specific-details">
+                                            <p class="year">2023 - Present</p>
+                                            <div class="year-details">
+                                                <p class="year-title">
+                                                    Software Engineer, CyRAACs 
+                                                </p>
+                                                <p class="year-desc">
+                                                    Implemented a microservices architecture for
+                                                    scalability using technologies like React for the frontend and Spring Boot with Java for the backend.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- ADD A LINE -->
+                            <div class="content-line"></div>
+                            <!-- MY SKILLS -->
+                            <div class="my-skills">
+                                <div class="title">
+                                    <h3>My Skills</h3>
+                                </div>
+                                <div class="skills">
+                                    <div class="skill">
+                                        <img style="height: 65%;" src="images/springboot.jfif" alt="">
+                                        <p>Springboot</p>
+                                    </div>
+                                    <div class="skill">
+                                        <img style="height: 65%;" src="images/react.png" alt="">
+                                        <p>React</p>
+                                    </div>
+                                    <div class="skill">
+                                        <img style="height: 60%;" src="images/aws.png" alt="">
+                                        <p>AWS</p>
+                                    </div>
+                                    <div class="skill">
+                                        <img src="images/kubernates.png" alt="">
+                                        <p>Kubernates</p>
+                                    </div>
+                                    <div  class="skill">
+                                        <img style="height: 65%;" src="images/jenkins.png" alt="">
+                                        <p>Jenkins</p>
+                                    </div>
+                                    <div class="skill">
+                                        <img src="images/c++.png" alt="">
+                                        <p>C++</p>
+                                    </div>
+                                    <div class="skill">
+                                        <img style="height: 65%;" src="images/golang.png" alt="">
+                                        <p>GoLang</p>
+                                    </div>
+                                    <div class="skill">
+                                        <img src="images/nodejs.png" alt="">
+                                        <p>NodeJS</p>
+                                    </div>
+                                    <div class="skill">
+                                        <img src="images/git.png" alt="">
+                                        <p>GitHub</p>
+                                    </div>
+                                    <div class="skill">
+                                        <img src="images/vue.png" alt="">
+                                        <p>Vue</p>
+                                    </div>
+                                    <div class="skill">
+                                        <img src="images/angular.png" alt="">
+                                        <p>Angular</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- CONTENT PORTFOLIO -->
+                    <div class="content content-portfolio" id="portfolio">
+                        <div class="content-header">
+                            <h2><span>My</span> PortFolio</h2>
+                        </div>
+                        <div class="content-details">
+                            <div class="portfolio">
+                                <div style="height: 80%;" class="portfolio-item">
+                                   <img style="height: 33%;" src="images/online_learning.png" alt=""> 
+                                   <p class="portfolio-title">
+                                    Online Learning Platform 
+                                   </p>
+                                   <p class="portfolio-desc">
+                                    <br/> 
+                                    Spring Boot, ReactJS, MySQL. Implemented microservices in Java to ensure modularity and scalability.
+                                   </p>
+                                </div>
+                                <div style="height: 80%;" " class="portfolio-item">
+                                   <img style="height: 33%;" src="images/blood_bank.jfif" alt=""> 
+                                   <p class="portfolio-title">
+                                    Blood Bank Integration
+                                   </p>
+                                   <p class="portfolio-desc">
+                                    <br/>
+                                    HTML, CSS, JS, MariaDB, Node.js.  Built website for easy blood donation connection (HTML, CSS, JS). Connected blood banks camps.
+
+                                   </p>                                  
+                                </div>
+                                <div  style="height: 80%;" class="portfolio-item">
+                                   <img style="height: 41%;" src="images/insurance.png" alt=""> 
+                                   <p class="portfolio-title">
+                                    Insurance Management System 
+                                   </p>
+                                   <p class="portfolio-desc">
+                                    <br/>
+                                    Applied PHP Application with Administration Login Portal
+                                    It validates the admin, gives access to information like clients, agents, and policy details
+                                   </p>
+                                </div>
+                                <div style="height: 80%;" class="portfolio-item">
+                                   <img style="height: 41%;" src="images/grocery.jfif" alt=""> 
+                                   <p class="portfolio-title">
+                                    Fresh Grocery - Android Application
+                                   </p>
+                                   <p class="portfolio-desc">
+                                    Used Android Studio IDE using Java language to design the interface of grocery app.
+                                   </p>
+                                  
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <!-- CONTENT CONTACT -->
+                    <div class="content content-contact" id="contact">
+                        <div class="content-header">
+                            <h2><span>Contact</span> Me</h2>
+                        </div>
+                        <div class="content-details">
+                            <div class="contact">
+                                <div class="contact-details">
+                                    <p class="title">Address</p>
+                                    <p>Bangalore, India</p>
+                                    <img src="images/white-line.PNG" alt="">
+                                </div>
+                                <div class="contact-details">
+                                    <p class="title">Email</p>
+                                    <p>priyanshulodha181@gmail.com</p>
+                                </div>
+                                <div class="contact-details">
+                                    <p class="title">Phone</p>
+                                    <p>+91 9672696274</p>
+                                </div>
+                                <div class="contact-details">
+                                    <p class="title">Freelance</p>
+                                    <p>Available</p>
+                                </div>
+                            </div>
+                            <div class="content-line"></div>
+                            <!-- CONTACT FORM -->
+                            <div class="contact-form">
+                                <div class="title">
+                                    <h3>Contact Form</h3>
+                                </div>
+                                <form action="mailto:priyanshulodha181@gmail.com" method="post" enctype="text/plain">
+                                    <div class="form-input">
+                                        <input type="text" placeholder="Name">
+                                        <input type="email" placeholder="Email">
+                                    </div>
+                                    <textarea cols="30" rows="10"></textarea>
+                                    <input type="submit" value="Send Message">
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
